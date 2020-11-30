@@ -24,4 +24,4 @@ for i in range( 1, 4 ):
 	solve( N )
 	right( 120 )
 end_fill()
-done()
+#done() #Removed for travis build
