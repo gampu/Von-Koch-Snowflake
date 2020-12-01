@@ -7,4 +7,5 @@
 The purpose of this effort is to get familiar with:
 * Generating von koch snowflakes using recursion
 * Building and testing the code on travis
-* Packaging the project
+
+![example](https://github.com/gampu/Von-Koch-Snowflake/blob/master/example.png)
