@@ -2,10 +2,11 @@ from turtle import *
 
 #Length of each side in units
 N = 500
+BASECASELEN = 20
 
 def solve( len ):
     #Don't recurse below 20 units
-	if len <= 20:
+	if len <= BASECASELEN:
 		forward( len ) #Print a line
 	else:
 		solve( len / 4 )
